@@ -12,9 +12,7 @@ public class MV
         String source = sc.nextLine();
         System.out.println("Enter destination address");
         String destination = sc.nextLine();
-        Path temp = Files.move
-        (Paths.get(source),
-        Paths.get(destination));
+        Path temp = Files.move(Paths.get(source),Paths.get(destination));
  
         if(temp != null)
         {
